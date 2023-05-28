@@ -48,8 +48,8 @@ THIRD_PARTY_APPS = [
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOCAL_APPS = [
-    'apps.common',
-    'apps.userprofile',
+    'apps.common.CommonConfig',
+    'apps.userprofile.UserprofileConfig',
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + LOCAL_APPS + THIRD_PARTY_APPS
